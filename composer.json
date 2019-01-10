@@ -1,0 +1,12 @@
+{
+    "name": "nerdy/framework",
+    "authors": [
+        {
+            "name": "Salvi Pascual",
+            "email": "salvi@techlaunch.io"
+        }
+    ],
+    "require": {
+        "halfpastfouram/phpchartjs": "^1.0"
+    }
+}

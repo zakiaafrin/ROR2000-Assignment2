@@ -1,0 +1,240 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d37b85da35d15460de4abc2b589c5765",
+    "packages": [
+        {
+            "name": "halfpastfouram/collection",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halfpastfouram/collection.git",
+                "reference": "0862d0b431fef9dc2245518dc06b86ff00dcd102"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halfpastfouram/collection/zipball/0862d0b431fef9dc2245518dc06b86ff00dcd102",
+                "reference": "0862d0b431fef9dc2245518dc06b86ff00dcd102",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0 || ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "5.2.*"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Halfpastfour\\Collection\\": "src/",
+                    "Test\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bob Kruithof"
+                }
+            ],
+            "description": "A flexible PHP Collection complete with custom Iterator.",
+            "homepage": "http://github.com/halfpastfouram/collection",
+            "keywords": [
+                "collection",
+                "php"
+            ],
+            "time": "2016-12-18T13:04:48+00:00"
+        },
+        {
+            "name": "halfpastfouram/phpchartjs",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halfpastfouram/PHPChartJS.git",
+                "reference": "8b011ab0f557f9c9d0e0ed9eac14ceaee9978e06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halfpastfouram/PHPChartJS/zipball/8b011ab0f557f9c9d0e0ed9eac14ceaee9978e06",
+                "reference": "8b011ab0f557f9c9d0e0ed9eac14ceaee9978e06",
+                "shasum": ""
+            },
+            "require": {
+                "halfpastfouram/collection": "1.0.0",
+                "php": ">=5.6.0 || ^7.0",
+                "zendframework/zend-json": "3.0.0",
+                "zf1/zend-reflection": "1.12.11"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "5.7.*"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Halfpastfour\\PHPChartJS\\": "src/",
+                    "Test\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bob Kruithof"
+                }
+            ],
+            "description": "PHP library for ChartJS 2.0",
+            "homepage": "http://github.com/halfpastfouram/PHPChartJS",
+            "keywords": [
+                "chartjs",
+                "graph",
+                "php"
+            ],
+            "time": "2017-10-31T14:27:58+00:00"
+        },
+        {
+            "name": "zendframework/zend-json",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-json.git",
+                "reference": "f42a1588e75c2a3e338cd94c37906231e616daab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-json/zipball/f42a1588e75c2a3e338cd94c37906231e616daab",
+                "reference": "f42a1588e75c2a3e338cd94c37906231e616daab",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^2.3",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+            },
+            "suggest": {
+                "zendframework/zend-json-server": "For implementing JSON-RPC servers",
+                "zendframework/zend-xml2json": "For converting XML documents to JSON"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev",
+                    "dev-develop": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+            "homepage": "https://github.com/zendframework/zend-json",
+            "keywords": [
+                "json",
+                "zf2"
+            ],
+            "time": "2016-04-01T02:34:00+00:00"
+        },
+        {
+            "name": "zf1/zend-exception",
+            "version": "1.12.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-exception.git",
+                "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+                "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Exception": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Exception package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "exception",
+                "framework",
+                "zend"
+            ],
+            "time": "2015-04-30T11:10:20+00:00"
+        },
+        {
+            "name": "zf1/zend-reflection",
+            "version": "1.12.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-reflection.git",
+                "reference": "cb052c09e53bb94b8499bace2952b6263fbf05d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-reflection/zipball/cb052c09e53bb94b8499bace2952b6263fbf05d3",
+                "reference": "cb052c09e53bb94b8499bace2952b6263fbf05d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-exception": "self.version"
+            },
+            "suggest": {
+                "zf1/zend-loader": "Used in special situations or with special adapters"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Reflection": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Reflection package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework",
+                "reflection",
+                "zend"
+            ],
+            "time": "2015-04-30T11:14:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
